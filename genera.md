@@ -26,8 +26,10 @@ A psuedo-material group of creatures that inhabit the bodies of dead animals, re
 
 # Nemnema (wriggler, applied to a reptile, worm, snake, etc.)
 # Hefau (serpent,snake)
-af (serpent, viper)
-nau (worm, serpent, viper, serpent-god)
-hunta (lizard, crocodile)
-khe-t (members/things/group) nau (???)
+These groups of creatures are an ancient race, the result of half-breeding of gods with an early ape-like Anthro species.
+
+ * af (serpent, viper)
+ * nau (worm, serpent, viper, serpent-god)
+ * hunta (lizard, crocodile)
+ * khe-t (members/things/group) nau (???)
 
