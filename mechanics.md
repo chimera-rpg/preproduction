@@ -25,30 +25,59 @@ All skills are individually leveled. Each skill also has an Efficiency %. This %
 
 Melee, Arcane, and Spirit skills are all divided into major groups with focuses within.
 
-Melee
+#### Non-combat
+
+`*` denotes multiple uses.
+`P` nenotes passive.
+
+  * Dungeoneering skills
+    * Disarm trap
+    * Trapfinding (detect traps) P
+    * Detect Arcane P
+    * Detect Divine P
+  * Resource-acquiring skills
+    * Woodcutting?
+    * Farming (maybe)
+    * Mining
+    * Fishing
+    * Herbalism *
+  * "Crafting" skills
+    * Smithing *
+    * Fletching
+    * Trapmaking (are there arcane and/or divine traps?)
+    * Herbalism *
+    * Alchemy *
+    * Endow (apply magic effects to items)
+  * Knowledge skills
+    * Jeweler (ability to identify magic rings, etc?)
+    * Smithing * (ability to identify arms and armor)
+    * Herbalism * (ability to identify components)
+    * Alchemy * (ability to identify potions)
+    * Arcane Literacy (ability to learn from spellbooks)
+    * Divine Literacy (ability to learn from divine books)
+
+#### Combat
+Combat style has a primary category that corresponds to the type of motion used:
+
   * Swinging
     * Swords
     * Hammers
     * Flails
-  * Striking
+  * Thrusting
     * Daggers
     * Javelins
     * Rapiers
   
-  * Slashing
-    * Swords
-  * Piercing
-    * Daggers
-    * Javelins
-    * Rapiers
-  * Impacting
-    * Hammers
-    * Flails
+In addition to this, there are these additional skills:
+
+  * Two-handed Weapons - generally heavy weapons that receive bonus effects from Might.
+  * Shield use (adds to defense - can potential use shield bashing?)
+  * Two-weapon Fighting - can be light weapons or heavy weapons. Generally best for high crits.
 
 Ranged
-  * Drawn
+  * Drawn (Might)
     * Bow (pierce)
-  * Thrown
+  * Thrown (Might)
     * Rocks (impact)
     * Axes (slash)
     * Darts (pierce)
