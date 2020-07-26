@@ -150,23 +150,57 @@ What if armor was a bit more complex and had its own damaged percentage that wou
 What if armor, in terms of damage reduction, was % based?
 
 Level 4-ish:
+
 Armor: Armor% + ((Skill + Skill Focus) * Efficiency * Armor%)
+
 Armor: 30% + 1% = 31% damage reduction
+
 On Hit: -4 to -8 hp, potentially -8 to -13
 
 Level 1:
+
 Armor: 20% + 0% = 20% damage reduction
+
 On Hit: -2 to -6 hp, potentially -3 to -9 hp
 
 ----
 
 Damage: Weapon + ((Skill + Skill Focus) * Efficiency) + Might
+
 Crit: Focus * 2 = % chance to multiple Damage by Weapon's crit
+
 Armor%: Base Armor% * (100% - Damaged%)
+
 Armor: Armor% + ((Skill + Skill Focus) * Efficiency * Armor%)
 
 Potentially Dodge should also use a skill that provides bonuses at a rate similar to Armor %. Criticals should also be trainable in a similar fashion.
 
 Maybe:
+
 Crit: (Focus*2/100) + ( (Crit Skill + Weapon Focus) * Efficiency * (Focus*2/100) )
+
 Dodge: (Reaction*2/100) + ( (Dodge Skill + ???) * Efficiency * (Reaction*2/100) )
+
+----
+Additional thoughts on making damage types %-based:
+
+Damages:
+  * Base = Weapon Damage Roll 
+    * 1d6 = 4
+  * Physical = (Base + (Skill + Skill Focus) * Efficiency + Might) * Physical %
+    * ( 4 + ( 1 + 1 ) * .80 + 2) * 1.00 = 7.6(8)
+  * Fire = Base * Fire %
+    * 4 * .50 = 2
+  * Total
+    * 8 Physical, 2 Fire
+
+Armor:
+  * Physical = Physical % + (Skill + Skill Focus) * Efficiency
+    * 30 + (1 + 1) * .8 = 31%
+  * Fire = Fire %
+    * 30%
+
+Resulting Damage:
+  * Physical = 8 - (8*.31) = 5.52(6)
+  * Fire = 2 * .30 = 0.6(1)
+  * Total = 6+1 = 7
