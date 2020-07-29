@@ -56,37 +56,40 @@ Melee, Arcane, and Spirit skills are all divided into major groups with focuses 
     * Arcane Literacy (ability to learn from spellbooks)
     * Divine Literacy (ability to learn from divine books)
 
-#### Combat
-Combat style has a primary category that corresponds to the type of motion used:
+#### Combat (Weapons)
+Weapon-based combat comes from two major skills:
 
-  * Swinging
-    * Swords
-    * Hammers
-    * Flails
-  * Thrusting
-    * Daggers
-    * Javelins
-    * Rapiers
-  
-In addition to this, there are these additional skills:
+  * Melee
+  * Ranged
 
-  * Two-handed Weapons - generally heavy weapons that receive bonus effects from Might.
-  * Shield use (adds to defense - can potential use shield bashing?)
-  * Two-weapon Fighting - can be light weapons or heavy weapons. Generally best for high crits.
+These two major skills are what level over time. Each has its own efficiency which degrades the effectiveness of the skill bonus.
 
-Ranged
-  * Drawn (Might)
-    * Bow (pierce)
-  * Thrown (Might)
-    * Rocks (impact)
-    * Axes (slash)
-    * Darts (pierce)
-  * Aimed
-    * Crossbow (pierce)
-    * Handcannons (impact)
-    * Wand(?)
+Additionally, both have skill focuses that determine competency with a given style of weapon. These function similar to the efficiency in that they reduce the bonus of the skill. For example, a player could have level 8 Melee skill with a 90% efficiency, but if they switch weapons to one they have no remaining competency in, they will receive a 50% reduction to their efficiency (making the weapon 45% efficient). After some training, however, their competency will rise to 100%, making them completely competent in their efficiency.
 
-Arcane
+Potentially there could be more than one skill focus, such as two-weapon fighting or two-handed fighting. In this case we would add combine the focus competencies and divide that value by the count of competencies involved. For example, two-weapon fighting 50% and axes 90% would result in ((50+90)/2)=70% competency.
+
+To note, perhaps combat skill should have no efficiency, as the competency of the focus fulfills the same function.
+
+##### Melee
+
+  * Two-weapon fighting (activated when a weapon is equipped in each hand)
+  * Two-handed weapons (activated when using a heavier weapon with two hands)
+  * Shield use (activated when using a shield in one hand)
+  * -
+  * Axes/Maces
+  * Swords
+  * Polearms
+  * Flails
+  * ???
+
+##### Ranged
+
+  * Bow
+  * Throwing weapons
+  * Aimed (crossbow, handcannon, etc.)
+
+#### Combat (Arcane)
+
   * Ray
   * Cone
   * Explosion
@@ -96,7 +99,7 @@ Arcane
   * Temperature (freeze&fire)
   * Materialize (creation, summoning)
 
-Spirit
+#### Combat (Spirit)
   * Lifeforce
     * Heal
     * Harm
